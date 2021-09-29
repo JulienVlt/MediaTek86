@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MediaTek86.Control;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,7 +11,7 @@ namespace MediaTek86.Vue
 {
     public partial class FrmGestionPersonnel : Form
     {
-        public FrmGestionPersonnel()
+        public FrmGestionPersonnel(Controle controle)
         {
             InitializeComponent();
         }

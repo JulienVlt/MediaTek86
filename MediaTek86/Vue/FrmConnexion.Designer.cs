@@ -90,6 +90,7 @@ namespace MediaTek86.Vue
             this.btnConnexion.TabIndex = 5;
             this.btnConnexion.Text = "CONNEXION";
             this.btnConnexion.UseVisualStyleBackColor = true;
+            this.btnConnexion.Click += new System.EventHandler(this.btnConnexion_Click);
             // 
             // label4
             // 
